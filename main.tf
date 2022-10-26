@@ -3,9 +3,9 @@ resource "random_pet" "pet" {
   separator = ""
 }
 
-output "pet" {
-  value = random_pet.pet
-}
+# output "pet" {
+#   value = random_pet.pet
+# }
 
 resource "random_string" "random_string" {
   length  = 4
@@ -14,9 +14,9 @@ resource "random_string" "random_string" {
   upper   = false
 }
 
-output "random_string" {
-  value = random_string.random_string
-}
+# output "random_string" {
+#   value = random_string.random_string
+# }
 
 
 resource "aws_s3_bucket" "bucket" {
